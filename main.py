@@ -33,5 +33,3 @@ for i in range(1, 1000):
         driver.find_element_by_xpath('//*[@id="islrg"]/div[1]/div['+str(i)+']/a[1]/div[1]/img').screenshot('D:/NLP/DL/image/men/man('+str(i+1979)+').png')
     except:
         pass
-print("Thao")
-print("Hello")
